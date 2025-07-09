@@ -1,0 +1,650 @@
+ {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "What's up?"],
+      "responses": ["Hi there!", "Hello!", "Hey, how can I help you today?"]
+    },
+     {
+      "tag": "casual conv",
+      "patterns": ["how are you doing", "i am tired", "i want to sleep"],
+      "responses": ["i am doing good what about u", "you are doing so great trust yourself", "Hey, how can I help you today?"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Your developer?", "Who created you?"],
+      "responses": ["I was developed by Mokshika Bhardwaj."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Your name?", "Who are you?"],
+      "responses": ["I'm Mind Reader, your college assistant bot."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How to take admission?", "Admission process?", "Admission form?"],
+      "responses": ["You can apply online on our university portal. Admission is merit-based."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are offered?", "Available branches?", "Programs in college?"],
+      "responses": ["We offer B.Tech in AI/ML, IT, Computer Science, Mechanical, Civil, and EXTC."]
+    },
+    {
+      "tag": "health",
+      "patterns": ["how to lose weight", "i am so fat", "i feel bad about myself"],
+      "responses": ["dont u worry you can do anything to know more i can assist you further"]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee?", "Fees for first year?", "Tell me fee structure"],
+      "responses": ["Fees are around ₹1,00,000 annually. Hostel and transport are separate."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Is hostel available?", "Tell me about hostel", "Hostel facility?"],
+      "responses": ["Yes, we offer separate AC/non-AC hostels for boys and girls with mess facility."]
+    },
+    {
+      "tag": "ragging",
+      "patterns": ["Is there ragging?", "What about ragging?", "Anti-ragging rules?"],
+      "responses": ["Our college is strictly anti-ragging with zero tolerance policy."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Is there a library?", "Library facility?", "Library hours?"],
+      "responses": ["Yes, we have a digital + physical library open from 8am to 6pm."]
+    },
+    {
+      "tag": "canteen",
+      "patterns": ["Is there a canteen?", "Food available?", "College food?"],
+      "responses": ["Yes, our canteen serves affordable meals, snacks, and beverages."]
+    },
+    {
+      "tag": "uniform",
+      "patterns": ["Is uniform mandatory?", "College dress code?", "What uniform?"],
+      "responses": ["Uniform is mandatory on weekdays. Details are in the student handbook."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the college located?", "College address?", "Campus location?"],
+      "responses": ["We are located in XYZ city. You can find us on Google Maps."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How to contact college?", "Phone number?", "Email address?"],
+      "responses": ["Call us at 1800-123-4567 or email info@college.edu."]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Any sports facilities?", "Is there a gym?", "College playground?"],
+      "responses": ["Yes, we have a gym, basketball, volleyball and cricket ground."]
+    },
+    {
+      "tag": "events",
+      "patterns": ["What events are held?", "College fests?", "Annual function?"],
+      "responses": ["We host annual cultural fest, tech fest, and many student-led events."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["What facilities are available?", "Campus features?", "Facilities in college?"],
+      "responses": ["We have smart classrooms, WiFi, labs, library, sports complex, and hostels."]
+    },
+    {
+      "tag": "hod",
+      "patterns": ["Who is the HOD?", "Head of department?", "IT HOD?"],
+      "responses": ["Each branch has its own HOD. Please specify the department."]
+    },
+    {
+      "tag": "principal",
+      "patterns": ["Who is the principal?", "Principal name?", "College principal?"],
+      "responses": ["Our principal is Dr. XYZ, who has 25+ years in academia."]
+    },
+    {
+      "tag": "timetable",
+      "patterns": ["Where is timetable?", "Class timings?", "Schedule?"],
+      "responses": ["Timetable is available on the student portal and notice board."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["What about placement?", "Companies visiting?", "Average package?"],
+      "responses": ["Top companies visit campus. Avg package is ₹6 LPA. Highest: ₹21 LPA."]
+    },
+    {
+      "tag": "exam",
+      "patterns": ["When are exams?", "Exam schedule?", "Midterms or semester?"],
+      "responses": ["Exams are held twice a year. You’ll receive timetable via mail and portal."]
+    },
+    {
+      "tag": "holiday",
+      "patterns": ["When is vacation?", "Holiday list?", "College holidays?"],
+      "responses": ["Holiday calendar is shared in orientation and pinned in portal."]
+    },
+    {
+      "tag": "rules",
+      "patterns": ["What are college rules?", "Discipline rules?", "Do's and don'ts?"],
+      "responses": ["Be on time, wear uniform, avoid mobiles in class, and follow attendance."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": ["Why did the computer catch cold? It left its Windows open! 😂"]
+    },
+    {
+      "tag": "creator_redundant",
+      "patterns": ["Who programmed you?", "You were made by?", "Your maker?"],
+      "responses": ["My creator is Mokshika Bhardwaj."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later"],
+      "responses": ["Goodbye!", "See you again soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Glad I could help! 😊", "Any time!"]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["Any scholarship?", "Fee waiver?", "Financial help?"],
+      "responses": ["Yes! We offer merit-based and government scholarships. Apply online."]
+    },
+    {
+      "tag": "language",
+      "patterns": ["Can I speak Hindi?", "Language options?", "Do you support English?"],
+      "responses": ["Currently, I support English only. More languages coming soon!"]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["What can you do?", "Your features?", "How can you help?"],
+      "responses": ["I can answer college-related questions, fees, admission, and more!"]
+    },
+    {
+      "tag": "ragged",
+      "patterns": ["i am being ragged", "i am scared"],
+      "responses": ["i am so sorry to hear that i can share further assistance numbers for the same."]
+    }  ,{
+      "tag": "career_scope_btech_branches",
+      "patterns": [
+        "Career in B.Tech CSE?",
+        "What is the scope of Mechanical Engineering?",
+        "Is Civil Engineering still in demand?",
+        "Scope of ECE in India",
+        "Career options after B.Tech IT"
+      ],
+      "responses": [
+        "CSE offers roles in software development, AI, cybersecurity, and data science.",
+        "Mechanical Engineering has scope in manufacturing, robotics, and automobile sectors.",
+        "Civil Engineering remains vital for infrastructure, construction, and government projects.",
+        "ECE graduates can work in embedded systems, telecommunications, and electronics industries."
+      ]
+    },
+
+    {
+      "tag": "popular_pg_courses",
+      "patterns": [
+        "Most popular PG courses in India",
+        "Which PG course has the highest salary?",
+        "Good PG options after any UG course",
+        "Which master’s is best after graduation?"
+      ],
+      "responses": [
+        "Popular PG courses include MBA, M.Tech, M.Sc, MA, MCA, and LLB.",
+        "MBA and M.Tech are among the highest-paying PG degrees in India.",
+        "Choose based on your UG background and career goals."
+      ]
+    },
+
+    {
+      "tag": "bsc_specializations",
+      "patterns": [
+        "Which B.Sc specialization has the most scope?",
+        "Best B.Sc courses for job opportunities",
+        "Scope of B.Sc Biotechnology",
+        "Is B.Sc Agriculture a good choice?"
+      ],
+      "responses": [
+        "B.Sc in Computer Science, Biotechnology, and Agriculture have strong job prospects.",
+        "B.Sc Agriculture is great if you're targeting government or agritech sectors.",
+        "Biotech offers roles in R&D, pharmaceuticals, and clinical research."
+      ]
+    },
+
+    {
+      "tag": "private_college_admissions",
+      "patterns": [
+        "How to get into private colleges?",
+        "Do private colleges require entrance exams?",
+        "Is direct admission possible in private universities?",
+        "Management quota in private colleges?"
+      ],
+      "responses": [
+        "Many private colleges offer direct admission based on Class 12 marks or conduct their own tests.",
+        "Some reputed private colleges like BITS, VIT, and Manipal have entrance exams.",
+        "Management quota admission is available in many institutions with additional fees."
+      ]
+    },
+
+    {
+      "tag": "online_pg_courses",
+      "patterns": [
+        "Are online PG courses worth it?",
+        "Can I do MCA online?",
+        "Best universities for online MBA",
+        "Is Amity Online MBA valid?",
+        "Can I do PGDM online?"
+      ],
+      "responses": [
+        "Online PG degrees are valid if recognized by UGC. Check for placement support before enrolling.",
+        "IGNOU, Amity Online, NMIMS Global, and Jain University offer good online PG programs.",
+        "Online PGDM from reputed institutes can enhance your resume and flexibility."
+      ]
+    },
+    {
+      "tag": "offline_best_du_colleges",
+      "patterns": [
+        "best college in du?",
+        "is it offline or online?",
+        "courses provided"
+      ],
+      "responses": [
+        "best top colleges are hansraj , mirinda house , karorimal , deen dayal du has 2 part north and south campus and you are offered multiple couse option both available for offilne and some available for online as well."
+      ]
+    },
+
+    {
+      "tag": "college_recognition",
+      "patterns": [
+        "Is this college UGC approved?",
+        "Check if a university is valid",
+        "NAAC grade of a college?",
+        "What does NIRF ranking mean?",
+        "Is AICTE approval necessary?"
+      ],
+      "responses": [
+        "UGC approval ensures that the degree is valid for government and private jobs.",
+        "Check NIRF rankings for performance metrics and reputation.",
+        "NAAC grade reflects academic quality and infrastructure.",
+        "AICTE approval is essential for technical courses like B.Tech, MBA, etc."
+      ]
+    },
+
+    {
+      "tag": "course_certifications",
+      "patterns": [
+        "Can I do certifications with BBA?",
+        "Which certifications are best with B.Com?",
+        "Add-on courses during B.Tech",
+        "Certifications with BA Psychology?",
+        "Useful skills with BCA degree"
+      ],
+      "responses": [
+        "Yes! Add certifications like digital marketing, Excel, finance modeling with BBA or B.Com.",
+        "Python, web dev, and cloud certifications go well with B.Tech or BCA.",
+        "BA Psychology students can do counselling, research methods, or SPSS certifications."
+      ]
+    }
+  ,{
+      "tag": "study_tips",
+      "patterns": [
+        "How to focus better while studying?",
+        "Tips for effective study?",
+        "How to avoid distractions?",
+        "Best way to revise?",
+        "Time management for students?"
+      ],
+      "responses": [
+        "Create a dedicated study space, follow a fixed schedule, and take short breaks.",
+        "Use Pomodoro technique: 25 minutes study, 5 minutes break.",
+        "Avoid phones while studying, and set daily achievable goals."
+      ]
+    },
+
+    {
+      "tag": "part_time_work",
+      "patterns": [
+        "Can I do part-time jobs while studying?",
+        "Best part-time jobs for students?",
+        "Online income options for students?",
+        "How to earn while studying?",
+        "Internship vs part-time job?"
+      ],
+      "responses": [
+        "Yes, you can work part-time in freelancing, internships, or on-campus jobs.",
+        "Content writing, tutoring, social media management are great student jobs.",
+        "Internships offer more learning while jobs give more income. Choose based on goal."
+      ]
+    },
+
+    {
+      "tag": "health_care",
+      "patterns": [
+        "How to stay healthy during college?",
+        "What food to eat during exams?",
+        "How to manage stress in college?",
+        "Daily health habits for students?",
+        "Tips for mental wellness?"
+      ],
+      "responses": [
+        "Get 7–8 hours sleep, stay hydrated, and take healthy meals.",
+        "Practice yoga or meditation for mental health.",
+        "Take breaks from screen and do physical activity daily."
+      ]
+    },
+
+    {
+      "tag": "basic_body_care",
+      "patterns": [
+        "Basic body care for students?",
+        "How to look fresh during college?",
+        "Skin care routine for boys and girls?",
+        "Hygiene tips for hostel students?",
+        "Hair care during exams?"
+      ],
+      "responses": [
+        "Follow a basic skincare routine and drink plenty of water.",
+        "Maintain hygiene: regular bath, clean clothes, oral care.",
+        "Use minimal skin products, focus on natural care."
+      ]
+    },
+
+    {
+      "tag": "cuet_tips",
+      "patterns": [
+        "How to prepare for CUET?",
+        "Tips to crack CUET?",
+        "Best books for CUET?",
+        "How to score high in CUET?",
+        "CUET prep strategy?"
+      ],
+      "responses": [
+        "Focus on NCERTs, practice mock tests regularly.",
+        "Revise domain subjects, keep track of CUET pattern and syllabus.",
+        "Use CUET preparation books by Arihant, Oswal, and attempt past papers."
+      ]
+    },
+
+    {
+      "tag": "student_engagement",
+      "patterns": [
+        "How to stay engaged in college?",
+        "Clubs and societies in college?",
+        "Extracurricular activities ideas?",
+        "Benefits of joining student clubs?",
+        "Fun ways to make friends in college?"
+      ],
+      "responses": [
+        "Join student-run clubs like debate, dance, coding, literature to stay engaged.",
+        "Participating in college fests helps in networking and fun.",
+        "Contribute to college magazine or clubs based on your interest."
+      ]
+    },
+       {
+      "tag": "btech_vs_bca",
+      "patterns": [
+        "B.Tech CSE or BCA, which is better?",
+        "Is BCA easier than B.Tech?",
+        "Career options for B.Tech and BCA",
+        "Which has more coding: B.Tech or BCA?",
+        "What is the difference between B.Tech and BCA?"
+      ],
+      "responses": [
+        "B.Tech CSE is more extensive and engineering-focused. BCA is good for core application development and is lighter.",
+        "B.Tech covers electronics, OS, networks, etc., while BCA is more software and application focused.",
+        "If you plan to do MCA or specialize in software, BCA is a great path. For core CS roles, B.Tech is preferred."
+      ]
+    },
+
+    {
+      "tag": "ba_vs_bsc",
+      "patterns": [
+        "Should I take BA or B.Sc?",
+        "Which is better: BA or B.Sc for UPSC?",
+        "BA vs B.Sc which is tougher?",
+        "Career options after BA and B.Sc",
+        "Government jobs after B.Sc vs BA"
+      ],
+      "responses": [
+        "BA is more humanities focused, great for UPSC, law, and journalism. B.Sc is science and research driven.",
+        "Choose B.Sc if you're aiming for science or technical fields. Choose BA for civil services or education careers.",
+        "Both are equally valuable; the better one depends on your interest."
+      ]
+    },
+
+    {
+      "tag": "bcom_vs_bba",
+      "patterns": [
+        "Difference between BBA and B.Com",
+        "Which is better for MBA: BBA or B.Com?",
+        "Scope of B.Com vs BBA",
+        "Which has better placement: BBA or B.Com?",
+        "Can I do CA with BBA?"
+      ],
+      "responses": [
+        "B.Com is great for finance, accounting, and CA. BBA is better for management and MBA later.",
+        "BBA focuses on business and soft skills, while B.Com is more about theory and commerce fundamentals.",
+        "Both have good scope, but B.Com is more aligned with traditional commerce jobs."
+      ]
+    },
+
+    {
+      "tag": "online_course_validation",
+      "patterns": [
+        "Are online degrees valid in India?",
+        "Will companies accept my online MBA?",
+        "Does WES accept online degrees?",
+        "Can I apply for government jobs with online degree?",
+        "Can I do UPSC after online graduation?"
+      ],
+      "responses": [
+        "Yes, if the degree is from UGC-approved online universities, it is valid for jobs and exams.",
+        "Check for UGC-DEB or AICTE approval for the course to ensure validity.",
+        "Online degrees from reputed institutions are accepted by most private and public sector employers."
+      ]
+    },
+
+    {
+      "tag": "course_based_jobs",
+      "patterns": [
+        "Jobs after B.Sc Computer Science",
+        "Career after BBA",
+        "What can I do after BA Psychology?",
+        "Best job after B.Com?",
+        "Can I become software engineer after BCA?",
+        "Government jobs after B.Sc"
+      ],
+      "responses": [
+        "B.Sc CS can lead to jobs in IT support, data analysis, software QA, or further MCA/MS programs.",
+        "After BBA, explore roles like business analyst, HR associate, digital marketer, or MBA.",
+        "BCA graduates can become software developers, testers, or pursue MCA/MS for advanced roles."
+      ]
+    },
+
+    {
+      "tag": "entrance_exam_for_courses",
+      "patterns": [
+        "Entrance exam for B.Tech",
+        "Is CUET required for DU UG?",
+        "Do I need entrance for BBA?",
+        "Exam for BSc Psychology?",
+        "JEE required for engineering?",
+        "Entrance for private colleges?"
+      ],
+      "responses": [
+        "JEE Main is the standard exam for B.Tech in India. Some private colleges have their own entrance tests.",
+        "CUET is mandatory for most UG courses in DU and other central universities.",
+        "Some colleges offer direct admission to BBA, while others may conduct interviews or aptitude tests."
+      ]
+    },
+
+    {
+      "tag": "college_modes",
+      "patterns": [
+        "What is the difference between regular and correspondence course?",
+        "Can I switch from online to offline mode?",
+        "Is distance education good?",
+        "Which is better for MBA: online or full-time?",
+        "DU SOL vs DU Regular?"
+      ],
+      "responses": [
+        "Regular courses offer campus life, labs, and peer interaction. Correspondence is self-paced and flexible.",
+        "DU SOL offers flexibility for working students but lacks placements. Regular DU offers more exposure and recognition.",
+        "Full-time MBA has better networking and placement support. Online is ideal if you're working or need flexibility."
+      ]
+    }
+    ,
+    {
+      "tag": "best_du_colleges",
+      "patterns": [
+        "Best DU colleges?",
+        "Which is the best college in DU?",
+        "Top colleges of Delhi University?",
+        "List of best DU colleges?",
+        "What are the top 5 DU colleges?"
+      ],
+      "responses": [
+        "Top DU colleges include SRCC, Hindu College, Miranda House, St. Stephen's, and Hansraj College.",
+        "SRCC is best for commerce, Miranda House for science, and St. Stephen’s for humanities.",
+        "DU offers many great colleges — choose based on course, location, and faculty."
+      ]
+    },
+    {
+      "tag": "compare_courses",
+      "patterns": [
+        "B.Tech vs B.Sc – which is better?",
+        "Should I choose BA or BBA?",
+        "What is the difference between BCA and B.Tech?",
+        "Best course for government jobs?",
+        "Which course is best for science students?"
+      ],
+      "responses": [
+        "B.Tech is technical and industry-oriented, while B.Sc is more theory and research based.",
+        "Choose BA for humanities careers, BBA for management, B.Sc for science and research.",
+        "For government jobs, B.Sc or BA are often good options due to their compatibility with exams."
+      ]
+    },
+    {
+      "tag": "college_mode_comparison",
+      "patterns": [
+        "Difference between online and offline college?",
+        "Is online degree valid?",
+        "Which is better: distance or regular?",
+        "Benefits of regular college?",
+        "Online vs offline courses in India"
+      ],
+      "responses": [
+        "Regular college offers campus life, peer learning, and placements. Online is flexible and affordable.",
+        "Both modes are valid if approved by UGC. Choose based on your learning style and schedule.",
+        "Distance courses suit working students, while regular ones offer better interaction and exposure."
+      ]
+    },
+    {
+      "tag": "cuet_colleges",
+      "patterns": [
+        "Which colleges accept CUET?",
+        "CUET-based universities?",
+        "Can I get DU with CUET?",
+        "Colleges under CUET exam?",
+        "Is BHU under CUET?"
+      ],
+      "responses": [
+        "Yes, Delhi University, BHU, JNU, AMU, and many central universities accept CUET.",
+        "CUET is the new common entrance for UG courses in top public universities in India.",
+        "Over 250+ universities including DU, BHU, JNU participate in CUET UG admissions."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How to focus better while studying?",
+        "Tips for effective study?",
+        "How to avoid distractions?",
+        "Best way to revise?",
+        "Time management for students?"
+      ],
+      "responses": [
+        "Create a dedicated study space, follow a fixed schedule, and take short breaks.",
+        "Use Pomodoro technique: 25 minutes study, 5 minutes break.",
+        "Avoid phones while studying, and set daily achievable goals."
+      ]
+    },
+    {
+      "tag": "part_time_work",
+      "patterns": [
+        "Can I do part-time jobs while studying?",
+        "Best part-time jobs for students?",
+        "Online income options for students?",
+        "How to earn while studying?",
+        "Internship vs part-time job?"
+      ],
+      "responses": [
+        "Yes, you can work part-time in freelancing, internships, or on-campus jobs.",
+        "Content writing, tutoring, social media management are great student jobs.",
+        "Internships offer more learning while jobs give more income. Choose based on goal."
+      ]
+    },
+    {
+      "tag": "health_care",
+      "patterns": [
+        "How to stay healthy during college?",
+        "What food to eat during exams?",
+        "How to manage stress in college?",
+        "Daily health habits for students?",
+        "Tips for mental wellness?"
+      ],
+      "responses": [
+        "Get 7–8 hours sleep, stay hydrated, and take healthy meals.",
+        "Practice yoga or meditation for mental health.",
+        "Take breaks from screen and do physical activity daily."
+      ]
+    },
+    {
+      "tag": "basic_body_care",
+      "patterns": [
+        "Basic body care for students?",
+        "How to look fresh during college?",
+        "Skin care routine for boys and girls?",
+        "Hygiene tips for hostel students?",
+        "Hair care during exams?"
+      ],
+      "responses": [
+        "Follow a basic skincare routine and drink plenty of water.",
+        "Maintain hygiene: regular bath, clean clothes, oral care.",
+        "Use minimal skin products, focus on natural care."
+      ]
+    },
+    {
+      "tag": "cuet_tips",
+      "patterns": [
+        "How to prepare for CUET?",
+        "Tips to crack CUET?",
+        "Best books for CUET?",
+        "How to score high in CUET?",
+        "CUET prep strategy?"
+      ],
+      "responses": [
+        "Focus on NCERTs, practice mock tests regularly.",
+        "Revise domain subjects, keep track of CUET pattern and syllabus.",
+        "Use CUET preparation books by Arihant, Oswal, and attempt past papers."
+      ]
+    },
+    {
+      "tag": "student_engagement",
+      "patterns": [
+        "How to stay engaged in college?",
+        "Clubs and societies in college?",
+        "Extracurricular activities ideas?",
+        "Benefits of joining student clubs?",
+        "Fun ways to make friends in college?"
+      ],
+      "responses": [
+        "Join student-run clubs like debate, dance, coding, literature to stay engaged.",
+        "Participating in college fests helps in networking and fun.",
+        "Contribute to college magazine or clubs based on your interest."
+      ]
+    }
+  ]
+}
+
+ 
